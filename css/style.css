@@ -1,19 +1,8 @@
 body{
     margin: 0px;
 }
-
-#header{
-    background-image: url("../img/hero.img");
-    background-size:  cover;
-    height: 500px;
-    color:#fff;
-    text-align: center;
-    font-size: 30px;
-    line-height: 500px;
-    text-shadow: 0px 0px 10px #000;
-}
 #navbar{
-    width: 660px;
+    width: fit-content;
     box-shadow: 0px 2px 5px #000;
     margin-left: auto;
     margin-right: auto;
@@ -29,4 +18,29 @@ body{
     border-bottom: 2px solid #000;
     color: #000;
     float: left;
+}
+#header{
+    background-image: url("../img/hero.img");
+    background-size:  cover;
+    height: 500px;
+    color:#fff;
+    text-align: center;
+    font-size: 30px;
+    line-height: 500px;
+    text-shadow: 0px 0px 10px #000;
+    margin-top: 50px;
+}
+
+.main{
+    float:left;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+
+
+}
+img{
+    height: 200px;
+    width: 200px;
+    display: ;
 }
