@@ -1,16 +1,20 @@
 body{
     margin: 0px;
+    width: 100%;
+    font-family: 'Risque', cursive;
 }
+
 #navbar{
-    width: fit-content;
+    width: 600px;
     box-shadow: 0px 2px 5px #000;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left:auto;
+    margin-right:auto;
 }
+
 #navbar a{
     text-decoration: none;
-    background-color:#fff ;
-    display: block;
+    background-color:#bb9457;
+    display: inline;
     width: 150px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -19,6 +23,15 @@ body{
     color: #000;
     float: left;
 }
+
+#navbar a:hover{
+    background-color: #FFE6A7;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    cursor: pointer;
+    font-size:20px ;
+}
+
 #header{
     background-image: url("../img/hero.img");
     background-size:  cover;
@@ -32,15 +45,114 @@ body{
 }
 
 .main{
-    float:left;
-    margin-left: auto;
+    width: 600px;
     margin-right: auto;
-    display:block;
-
-
+    margin-left: auto;
+    padding: 10px;
+    padding-bottom: 50px;
+    text-align: justify;
 }
-img{
-    height: 200px;
+
+h2{
+    color: #6F1D1B;
+    margin-top: 60px;
+}
+
+#logo{
     width: 200px;
-    display: ;
+    height: auto;
+    float:right;
 }
+
+.boxes{
+    padding: 20px 20px;
+}
+
+.one{
+    background-color: #B81365;
+    color: #fff;
+    width: 225px;
+    height: 300px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 10px;
+    float: left;
+    margin-right: 60px;
+}
+
+  
+.two{
+    color: #fff;
+    background-color: #026C7C;
+    width: 225px;
+    height: 300px;
+    text-align: center;
+    float: left;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.clearfloat{
+    clear:both;
+}
+footer{
+    width: 100% !important;
+}
+.footer{
+    background:#432818;
+    padding:30px 0px;
+    font-family: 'Play', sans-serif;
+    text-align:center;
+}
+    
+.footer .row{
+    width:100%;
+    margin:1% 0%;
+    padding:0.6% 0%;
+    color:gray;
+    font-size:0.8em;
+    }
+    
+.footer .row a{
+    text-decoration:none;
+    color:gray;
+    transition:0.5s;
+}
+    
+.footer .row a:hover{
+    color:#fff;
+}
+    
+.footer .row ul{
+    width:100%;
+}
+    
+.footer .row ul li{
+    display:inline-block;
+    margin:0px 30px;
+}
+    
+.footer .row a i{
+    font-size:2em;
+    margin:0% 1%;
+}
+    
+@media (max-width:720px){
+    .footer{
+    text-align:left;
+    padding:5%;
+}
+.footer .row ul li{
+    display:block;
+    margin:10px 0px;
+    text-align:left;
+}
+.footer .row a i{
+    margin:0% 3%;
+}
+
+
+
+
+    
+    

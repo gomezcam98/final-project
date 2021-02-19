@@ -1,33 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">    
+    <link href="https://fonts.googleapis.com/css2?family=Risque&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mimi's cafee</title>
+    <title>Pop's cafe | Since 1998</title>
 </head>
 <body>
-
-      <!-- this is my navbar  -->
-      <div id="navbar">
-        <a href="home.html#home">Home</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
-        <a href="locations.html">Locations</a>
-    </div>
-
+    
     <!-- this is my header  -->
+    
     <div id="header">
-        <h1>Mimi's Cafe | Since 1998</h1>
+        <h1>Pop's Cafe | Since 1998</h1>
+    </div>
+    
+    <!-- this is my navbar  -->
+    
+    <div id="navbar">
+        <a href="home.html#home">Home</a>
+        <a href="home.html">About</a>
+        <a href="home.html">Contact</a>
+        <a href="locations.html">Locations</a>
     </div>
 
   
 
     <div class="main">
-        <h2>MENU</h2>
+        <h2>Our Story</h2>
 
-        <img src="img/navbar.img" alt="logo" id="logo">
+        <img src="img/navbar.img" alt="Logo" id="logo">
+
+        <p id="first-p">
+           Our doors officaly opended up on August 20th, 1998. 
+           My sister and I have recntly taken over ownership from our 
+           grandparents this year! We are very proud to call Pop's Cafe ours. 
+           We hope to keep the same great energy and  good vibes the cafe has
+            always had. Pop's Cafe is lucky enough to be belong to such a wonderful 
+            and supporting community and we wanted to give our heartful thanks to 
+            everyone that has supported us sincet the beginning. 
+        </p>
+           
+
+        <h2>Menu</h2>
+
+        <div class="boxes">
+            <div class= "one">
+              <h1>HOT DRINKS</h1>
+              <p>#1 Americano</p>
+              <p>#2 Espresso</p>
+              <p>#3 Long Black</p>
+              <p>#4 Carmel Mocciato</p>
+              <p>#5 Black Tea</p>
+              <p>#6 Green Tea</p>
+            </div>
+           
+            <div class="two">
+                <h1>COLD DRINKS</h1>
+                <p>#1 Iced Coffee</p>
+                <p>#2 Easy Iced Coffee</p>
+                <p>#3 Creamy Iced Coffee</p>
+                <p>#4 Chocolate Iced Coffee</p>
+                <p>#5 Banana Milk Coffee</p>
+                <p>#6 Cold-Brewed Coffee</p>
+            </div>
+        </div>
+
+        <div class="clearfloat"></div>
+
+        <div id= "contact">
+        <h2>Contact</h2>
+
+        <p>For questions or concers, email <a href="gomezcam98@gmail.com">gomezcam98@gmail.com</a>.</p>
+
+        <form action="confirmation.html">
+            <div class="form-row">
+                <label class="main-label" for="name-id">Name:</label>
+                <input id="name-id" type="text" placeholder="Name">
+            </div>
+
+            <div class="form-row">
+                <label class="main-label" for="email-id">Email:</label>
+                <input id="email-id" type="email" placeholder="email@gmail.com">
+            </div>
+
+            <div class="form-row">
+                <label class="main-label">Subscribe to Newsletters & Events?</label>
+                <label>
+                    <input type="radio" name="coffee-daily">
+                    YES
+                </label>
+
+                <label>
+                    <input type="radio" name="coffee-daily">
+                    NO
+                </label>
+
+                <div class="form-row">
+                    <label class="main-label" for="subject-id">Subject</label>
+
+                    <select id="subject-id">
+                        <option>Catering</option>
+                        <option>Employment</option>
+                        <option>Other</option>
+                    </select>
+                </div>
+
+                <div class="form-row">
+                    <label class="main-label" for="msg-id">Message:</label>
+                    <textarea id="msg-id" placeholder="Hello..."></textarea>
+                </div>
+                
+                <div class="form-row">
+
+
+                    
+                    <button id="submit-btn" type="submit">Send</button>
+                    <button type="rest">Clear</button>
+                </div>
+            </div>     
+        </form>
     </div>
+
+    <div class="clearfloat"></div>
+    <footer>
+        <div class="footer">
+            <div class="row">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-youtube"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            </div>
+        
+            <div class="row">
+                <ul>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">Our Services</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Career</a></li>
+                </ul>
+            </div>
+        
+            <div class="row">
+                INFERNO Copyright © 2021 Inferno - All rights reserved || Designed By: Mahesh 
+            </div>
+        </div>
+    </footer>
+         <!-- #footer -->
 </body>
+        
 </html>
